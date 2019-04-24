@@ -12,6 +12,15 @@
 		492AABAC2270A950009237CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AABAA2270A950009237CE /* Main.storyboard */; };
 		492AABAE2270A952009237CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492AABAD2270A952009237CE /* Assets.xcassets */; };
 		492AABB12270A952009237CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AABAF2270A952009237CE /* LaunchScreen.storyboard */; };
+		492AABC12270B9DE009237CE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AABC02270B9DE009237CE /* Service.swift */; };
+		492AABC32270BDCB009237CE /* StationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AABC22270BDCB009237CE /* StationModel.swift */; };
+		492AABC52270BE35009237CE /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AABC42270BE35009237CE /* StationViewModel.swift */; };
+		49380C2E2270CFF800C6DA64 /* StationTrainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49380C2D2270CFF800C6DA64 /* StationTrainsViewController.swift */; };
+		49380C302270D02D00C6DA64 /* StationTrainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49380C2F2270D02D00C6DA64 /* StationTrainStoryboard.storyboard */; };
+		49380C322270D43100C6DA64 /* StationTrainInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49380C312270D43100C6DA64 /* StationTrainInfoModel.swift */; };
+		49380C342270E1CA00C6DA64 /* TrainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49380C332270E1CA00C6DA64 /* TrainDetailViewController.swift */; };
+		49380C362270E1EC00C6DA64 /* TrainDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49380C352270E1EC00C6DA64 /* TrainDetailStoryboard.storyboard */; };
+		7B6C2E826BB89EEC237C70AB /* Pods_TrainApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC98595F946A8287609BD3CD /* Pods_TrainApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,17 @@
 		492AABAD2270A952009237CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492AABB02270A952009237CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492AABB22270A952009237CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492AABC02270B9DE009237CE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		492AABC22270BDCB009237CE /* StationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
+		492AABC42270BE35009237CE /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		49380C2D2270CFF800C6DA64 /* StationTrainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTrainsViewController.swift; sourceTree = "<group>"; };
+		49380C2F2270D02D00C6DA64 /* StationTrainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StationTrainStoryboard.storyboard; sourceTree = "<group>"; };
+		49380C312270D43100C6DA64 /* StationTrainInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTrainInfoModel.swift; sourceTree = "<group>"; };
+		49380C332270E1CA00C6DA64 /* TrainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailViewController.swift; sourceTree = "<group>"; };
+		49380C352270E1EC00C6DA64 /* TrainDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrainDetailStoryboard.storyboard; sourceTree = "<group>"; };
+		55119A8496F7783531AC5062 /* Pods-TrainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainApp.release.xcconfig"; path = "Target Support Files/Pods-TrainApp/Pods-TrainApp.release.xcconfig"; sourceTree = "<group>"; };
+		7302AA812AFC8519B7B65CFB /* Pods-TrainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainApp.debug.xcconfig"; path = "Target Support Files/Pods-TrainApp/Pods-TrainApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EC98595F946A8287609BD3CD /* Pods_TrainApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6C2E826BB89EEC237C70AB /* Pods_TrainApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				492AABA52270A950009237CE /* TrainApp */,
 				492AABA42270A950009237CE /* Products */,
+				7D0CD869CCACB4E3F24495D4 /* Pods */,
+				90FE52C711891AC987C532E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,103 @@
 		492AABA52270A950009237CE /* TrainApp */ = {
 			isa = PBXGroup;
 			children = (
+				492AABBD2270B995009237CE /* Commons */,
+				492AABBC2270B98C009237CE /* Extensions */,
+				492AABBB2270B97C009237CE /* Data Model */,
+				492AABB82270AAA5009237CE /* View Model */,
+				492AABB92270B961009237CE /* Controllers */,
+				492AABBA2270B975009237CE /* Views */,
 				492AABA62270A950009237CE /* AppDelegate.swift */,
-				492AABA82270A950009237CE /* ViewController.swift */,
-				492AABAA2270A950009237CE /* Main.storyboard */,
 				492AABAD2270A952009237CE /* Assets.xcassets */,
-				492AABAF2270A952009237CE /* LaunchScreen.storyboard */,
 				492AABB22270A952009237CE /* Info.plist */,
+				492AABC02270B9DE009237CE /* Service.swift */,
 			);
 			path = TrainApp;
+			sourceTree = "<group>";
+		};
+		492AABB82270AAA5009237CE /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				492AABC42270BE35009237CE /* StationViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		492AABB92270B961009237CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				492AABA82270A950009237CE /* ViewController.swift */,
+				49380C2D2270CFF800C6DA64 /* StationTrainsViewController.swift */,
+				49380C332270E1CA00C6DA64 /* TrainDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		492AABBA2270B975009237CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				492AABBF2270B9BF009237CE /* xib */,
+				492AABBE2270B9B8009237CE /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		492AABBB2270B97C009237CE /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				492AABC22270BDCB009237CE /* StationModel.swift */,
+				49380C312270D43100C6DA64 /* StationTrainInfoModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		492AABBC2270B98C009237CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		492AABBD2270B995009237CE /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		492AABBE2270B9B8009237CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				492AABAF2270A952009237CE /* LaunchScreen.storyboard */,
+				492AABAA2270A950009237CE /* Main.storyboard */,
+				49380C2F2270D02D00C6DA64 /* StationTrainStoryboard.storyboard */,
+				49380C352270E1EC00C6DA64 /* TrainDetailStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		492AABBF2270B9BF009237CE /* xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		7D0CD869CCACB4E3F24495D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7302AA812AFC8519B7B65CFB /* Pods-TrainApp.debug.xcconfig */,
+				55119A8496F7783531AC5062 /* Pods-TrainApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90FE52C711891AC987C532E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC98595F946A8287609BD3CD /* Pods_TrainApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492AABB52270A952009237CE /* Build configuration list for PBXNativeTarget "TrainApp" */;
 			buildPhases = (
+				FC5758DBD33D30636F3B169F /* [CP] Check Pods Manifest.lock */,
 				492AAB9F2270A950009237CE /* Sources */,
 				492AABA02270A950009237CE /* Frameworks */,
 				492AABA12270A950009237CE /* Resources */,
+				2E4426D70A4057794FF42F0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +238,74 @@
 			files = (
 				492AABB12270A952009237CE /* LaunchScreen.storyboard in Resources */,
 				492AABAE2270A952009237CE /* Assets.xcassets in Resources */,
+				49380C362270E1EC00C6DA64 /* TrainDetailStoryboard.storyboard in Resources */,
 				492AABAC2270A950009237CE /* Main.storyboard in Resources */,
+				49380C302270D02D00C6DA64 /* StationTrainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E4426D70A4057794FF42F0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainApp/Pods-TrainApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrainApp/Pods-TrainApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5758DBD33D30636F3B169F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		492AAB9F2270A950009237CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492AABC32270BDCB009237CE /* StationModel.swift in Sources */,
+				492AABC52270BE35009237CE /* StationViewModel.swift in Sources */,
+				49380C342270E1CA00C6DA64 /* TrainDetailViewController.swift in Sources */,
+				49380C2E2270CFF800C6DA64 /* StationTrainsViewController.swift in Sources */,
 				492AABA92270A950009237CE /* ViewController.swift in Sources */,
+				49380C322270D43100C6DA64 /* StationTrainInfoModel.swift in Sources */,
 				492AABA72270A950009237CE /* AppDelegate.swift in Sources */,
+				492AABC12270B9DE009237CE /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +449,7 @@
 		};
 		492AABB62270A952009237CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7302AA812AFC8519B7B65CFB /* Pods-TrainApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +467,7 @@
 		};
 		492AABB72270A952009237CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55119A8496F7783531AC5062 /* Pods-TrainApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
